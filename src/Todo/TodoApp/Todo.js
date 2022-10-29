@@ -33,7 +33,7 @@ export default function Todo(props) {
     <>
 
     <div className="container-fluid">
-      <div className="row bg-primary pt-2 ps-5">
+      <div className="row bg-primary pt-5 ps-5">
         <h1 className="text-white col-6">Todo App!</h1>
         <form
           onSubmit={(e) => handelFormSubmit(e)}
@@ -59,7 +59,7 @@ export default function Todo(props) {
             </div>
           </div>
           <button type="submit" className="btn btn-dark col-3 fw-bold fs-3">
-            Add new Todo
+            Add Todo
           </button>
         </form>
       </div>
