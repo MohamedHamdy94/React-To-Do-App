@@ -16,7 +16,7 @@ function App() {
     }
     console.log(id);
     let todo = { id: id, text: text, done: false };
-    let newTodos = [ ...todos]
+    const newTodos = [ ...todos]
     newTodos.push(todo)
     // let newTodos = [ ...todos,todo];
     console.log(newTodos)
